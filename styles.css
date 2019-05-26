@@ -1,0 +1,34 @@
+
+/* logo */
+@font-face {
+  font-family: 'monotype-corsiva';
+  src: url('font/monotype-corsiva.ttf')
+}
+.navbar-brand {
+  font-family: monotype-corsiva;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+
+}
+
+#logo {
+  font-size: 3rem;
+  color: red;
+  text-shadow:
+    -1px -1px 0 white,
+     1px 1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+/* jumbotron */
+.jumbotron {
+  color: #f7f9fc;
+  height: 80vh;
+  background: url(image/carbackground.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
