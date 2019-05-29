@@ -32,3 +32,37 @@
  -o-background-size: cover;
  background-size: cover;
 }
+
+/*services*/
+.services {
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 2rem;
+}
+
+.row{
+  box-shadow: 2px 2px 2px 2px #cfcfd1;
+}
+.do {
+  /* background-color: grey; */
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dont {
+  /* background-color: green; */
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    height: 50vh;
+  }
+}
