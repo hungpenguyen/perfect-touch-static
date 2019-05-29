@@ -4,6 +4,7 @@
   font-family: 'monotype-corsiva';
   src: url('font/monotype-corsiva.ttf')
 }
+
 .navbar-brand {
   font-family: monotype-corsiva;
   transform: translateX(-50%);
@@ -34,35 +35,28 @@
 }
 
 /*services*/
-.services {
-  text-align: center;
-}
 
-.services h2 {
-  margin-bottom: 2rem;
+.container h2 {
+  padding-bottom: 25px;
+  text-align: center;
+
 }
 
 .row{
   box-shadow: 2px 2px 2px 2px #cfcfd1;
 }
-.do {
-  /* background-color: grey; */
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+
+
+.card-img-top {
+  height: 350px;
+  width:auto;
 }
 
-.dont {
-  /* background-color: green; */
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-
-/* media query */
 @media only screen and (max-width: 600px) {
   .jumbotron {
     height: 50vh;
   }
+  .card-img-top{
+  height: 350px;
+}
 }
